@@ -4,15 +4,22 @@
     <parent>
         <groupId>com.yangxj96</groupId>
         <artifactId>spectra-api</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>spectra-web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
     <name>spectra-web</name>
     <description>spectra-web</description>
 
     <dependencies>
+
+        <!-- 加入其他模块 -->
+        <dependency>
+            <groupId>com.yangxj96</groupId>
+            <artifactId>spectra-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

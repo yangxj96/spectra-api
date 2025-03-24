@@ -5,10 +5,10 @@
     <parent>
         <groupId>com.yangxj96</groupId>
         <artifactId>spectra-api</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <artifactId>spectra-core</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
     <name>spectra-core</name>
     <description>spectra-core</description>
 

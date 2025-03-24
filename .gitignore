@@ -1,3 +1,6 @@
+### 自定义 ###
+.flattened-pom.xml
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
