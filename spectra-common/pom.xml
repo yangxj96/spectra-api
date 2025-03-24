@@ -7,10 +7,10 @@
         <artifactId>spectra-api</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>spectra-core</artifactId>
+    <artifactId>spectra-common</artifactId>
     <version>${revision}</version>
-    <name>spectra-core</name>
-    <description>核心业务模块</description>
+    <name>spectra-common</name>
+    <description>公用模块</description>
 
     <dependencies>
 

@@ -1,6 +1,3 @@
-
-
-
 # 模块说明
 
 - spectra-code

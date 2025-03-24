@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -10,7 +10,7 @@
     <artifactId>spectra-web</artifactId>
     <version>${revision}</version>
     <name>spectra-web</name>
-    <description>spectra-web</description>
+    <description>业务模块</description>
 
     <dependencies>
 
@@ -18,6 +18,11 @@
         <dependency>
             <groupId>com.yangxj96</groupId>
             <artifactId>spectra-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yangxj96</groupId>
+            <artifactId>spectra-quartz</artifactId>
             <version>${project.version}</version>
         </dependency>
 
